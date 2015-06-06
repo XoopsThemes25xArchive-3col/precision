@@ -1,0 +1,75 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn {width : 175px;}
+#xo-canvas-leftcolumn h3.xo-blocktitle {
+  margin : 0 0 5px 0;
+  background: url("../img/img03.jpg") repeat-x left bottom;
+  padding-left : 5px;
+  padding-bottom : 10px;  
+  color : #666;
+  font-size : 1.1em;
+  font-weight : bold;  	
+	letter-spacing: -1px;
+
+}
+#xo-canvas-leftcolumn .xo-blockcontent {
+  margin-bottom : 10px;
+  padding : 3px;
+  line-height : 1.2em;
+}
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {width : 175px;}
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+  margin : 0 0 5px 0;
+  background: url("../img/img03.jpg") repeat-x left bottom;
+  padding-left : 5px;
+  padding-bottom : 10px;  
+  color : #666;
+  font-size : 1.1em;
+  font-weight : bold;  	
+	letter-spacing: -1px;
+}
+#xo-canvas-rightcolumn .xo-blockcontent {
+  margin-bottom : 10px;
+  padding : 3px;
+  line-height : 1.2em;
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {margin : 0 10px 5px 10px;}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin : 5px;
+  background: url("../img/img03.jpg") repeat-x left bottom;
+  padding-left : 5px;
+  padding-bottom : 10px;  
+  color : #666;
+  font-size : 1.1em;
+  font-weight : bold;  	
+	letter-spacing: -1px;
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  padding : 5px 8px 8px 8px;
+  margin-bottom : 2px;
+  line-height : 1.4em;
+  text-align : justify;
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin : 5px;
+  background: url("../img/img03.jpg") repeat-x left bottom;
+  padding-left : 5px;
+  padding-bottom : 10px;  
+  color : #666;
+  font-size : 1.1em;
+  font-weight : bold;  	
+	letter-spacing: -1px;
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  padding : 5px 8px 8px 8px;
+  margin-bottom : 2px;
+  line-height : 1.4em;
+  text-align : justify;
+}

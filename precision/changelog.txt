@@ -1,0 +1,6 @@
+Changelog Precision Theme 1.0
+Nov 30, 2008 
+=============
+1 Template (freecsstemplates.org) Ported to XOOPS - ImpressCMS by Xoopsland.com.
+
+

@@ -1,0 +1,155 @@
+/* --------- Stylesheets incorporation --------- */
+@import url("content.css");
+@import url("extraclass.css");
+@import url("forms.css");
+@import url("templates.css");
+@import url("blocks.css");
+
+/* --------- Reset css --------- */
+* {
+  margin : 0;
+  padding : 0;
+}
+
+/* --------- Layout --------- */
+body {	
+  margin : 20px 0;
+	background : #fff url("../img/img01.jpg") repeat-x left top;
+	padding : 0;
+	color : #666;	
+	font-family: "Trebuchet MS", "Times New Roman", Times, serif;
+	font-size : 13px;
+}
+#xo-canvas {}
+#xo-canvas-content {
+	width : 960px;
+	margin : 0 auto;
+	padding : 30px 0 0 0;
+}
+#xo-page {padding : 5px 10px 0 10px;}
+
+/* --------- Header --------- */
+#xo-header {
+	width : 960px;
+	height : 100px;
+	margin : 0 auto;
+}
+/* --- Logo --- */
+#xo-header .logo {
+	float : left;
+	height : 40px;
+}
+#xo-header .logo h1, #xo-header .logo h2 {
+	float : left;
+	margin-top : 20px;
+	text-transform : lowercase;
+	font-weight : normal;
+}
+#xo-header .logo h1 {
+	padding : 5px 0 0 0px;
+	font-size : 2.6em;
+}
+#xo-header .logo h2 {
+	padding : 17px 0 0 6px;
+	font-size : 1.2em;
+}
+#xo-header .logo a {
+  color : #fff;
+	text-decoration : none;	
+	border : none;
+}
+/* --------- Navigation menu --------- */
+ul#xo-globalnav {   
+	float : right;
+	height : 40px;
+}
+ul#xo-globalnav li {
+  float: left;
+  margin : 0;
+	padding : 30px 0px 0 0;
+	list-style : none;
+}
+ul#xo-globalnav a {
+	display : block;
+	float : left;
+	margin-right : 3px;
+	padding : 5px 18px 5px 18px;
+	color : #fff;
+	text-transform : lowercase;
+	text-decoration : none;
+	font-size : 1.2em;	
+	border-left : 2px solid #99C233;
+}
+ul#xo-globalnav a:hover {
+  text-decoration: underline;
+	color: #fff;
+}
+ul#xo-globalnav a:active, ul#xo-globalnav a:focus,
+ul#xo-globalnav a.xo-current  {
+  text-decoration: underline;
+	color: #fff;
+}
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;  
+}
+
+/* --------- Footer --------- */
+#xo-footer {  
+	width : 960px;
+	height : 40px;
+	margin : 0 auto;
+	background : url("../img/img02.jpg") repeat-x left top;
+}
+#xo-footer p {
+	margin : 0;
+	padding : 15px 0px;
+	font-size : 11px;
+}
+#xo-footer .powered {
+	float : left;
+	height : 40px;
+}
+#xo-footer .credit {
+	float : right;
+	height : 40px;
+}
+#xo-footer .legal {
+  height : 40px;
+  text-align : center;  
+}
+#xo-logger-output{font-size : .9em;}
+
+/* --------- Block main menu --------- */
+#mainmenu {font-size : .9em;}
+#mainmenu a {
+  display : block;
+  margin : 0;
+  background : url("../img/img05.gif") no-repeat left;    
+  padding : 4px;
+}
+#mainmenu a:hover {background-color : #fff;}
+#mainmenu a.menuTop {padding-left : 12px;}
+#mainmenu a.menuMain {padding-left : 12px;}
+#mainmenu a.menuSub {  
+  background-color : #fff;
+  padding-left : 12px;
+  color : #666;
+  font-size : .9em;
+  font-style : italic;
+}
+#mainmenu a.menuSub:hover {background-color : #FEFEFE;}
+
+/* --------- Block user menu --------- */
+#usermenu {font-size : .9em;}
+#usermenu a {
+  display : block;
+  margin : 0;
+  background : url("../img/img05.gif") no-repeat left;    
+  padding : 3px 3px 3px 12px;
+}
+#usermenu a:hover {background-color : #fff;}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color : #fcc;}
